@@ -1,0 +1,1 @@
+.ytdata{display:grid;gap:5px;grid-template-columns:1fr 1fr}@media screen and (max-width:740px){.ytdata{grid-template-columns:1fr}}.ytdata iframe{aspect-ratio:16/9;border-radius:15px;box-shadow:5px 10px 10px #3332;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;width:100%}
