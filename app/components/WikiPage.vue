@@ -53,7 +53,11 @@ const { data: allPages } = await useAsyncData('wiki-nav', () =>
 
 const navPages = computed(() =>
   (allPages.value ?? [])
-    .filter(p => p.path !== '/wiki')
+    .filter(p => {
+      if (p.path === '/wiki') return false
+      const afterWiki = p.path.slice('/wiki/'.length)
+      return !afterWiki.includes('/')
+    })
     .sort((a, b) => a.title.localeCompare(b.title, 'ko'))
 )
 
