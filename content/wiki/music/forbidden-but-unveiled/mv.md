@@ -3,7 +3,7 @@ title: "Forbidden but Unveiled/뮤직비디오"
 description: "금자필현"
 ---
 
-# 뮤직비디오
+# Forbidden but Unveiled/뮤직비디오
 
 ## 일러스트 모음
 
