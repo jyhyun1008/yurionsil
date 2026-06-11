@@ -82,7 +82,7 @@ description: "금자필현"
 
 !grid[https://i.imgur.com/OtRGNAN.png, https://i.imgur.com/P9pit61.png]
 
-두번쨰 이미지의 시녀 역은 유리온실의 다른 멤버인 PIE입니다. 솔직히 이번 뮤비에서 제일 맘에 드는 그림입니다 (ㅋㅋ)
+두번째 이미지의 시녀 역은 유리온실의 다른 멤버인 PIE입니다. 솔직히 이번 뮤비에서 제일 맘에 드는 그림입니다 (ㅋㅋ)
 
 !grid[https://i.imgur.com/mD7dXLE.png, https://i.imgur.com/sAggVdB.png]
 
