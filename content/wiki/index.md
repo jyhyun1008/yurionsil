@@ -22,6 +22,6 @@ description: "유리온실 프로젝트에 대한 아카이브"
 
 | 플랫폼 | 주소 |
 |--------|------|
-| YouTube | [@yurionsil](https://www.youtube.com/playlist?list=PLuZeaDq3WegtW2JJs7DFrZ_qOD6mMrmIK) |
+| YouTube | [재생 목록](https://www.youtube.com/playlist?list=PLuZeaDq3WegtW2JJs7DFrZ_qOD6mMrmIK) |
 | Twitter | [@yuri_onsil_](https://x.com/yuri_onsil_) |
 | Postype | [@yurionsil](https://www.postype.com/@yurionsil) |
