@@ -5,6 +5,8 @@ description: "유리온실 멤버 목록"
 
 # 멤버 목록
 
+![](https://i.imgur.com/iMvO7xu.jpeg)
+
 ## 국희지 (COO)
 
 ## 송파란 (PIE)
