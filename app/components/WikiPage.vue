@@ -165,7 +165,7 @@ useHead({
 .wiki-content :deep(h1) {
   font-size: 26px;
   font-weight: 700;
-  color: #1a8f94;
+  color: #1a8f94 !important;
   margin-bottom: 16px;
   padding-bottom: 12px;
   border-bottom: 2px solid #c4f3f5;
@@ -174,17 +174,17 @@ useHead({
 .wiki-content :deep(h2) {
   font-size: 20px;
   font-weight: 700;
-  color: #1a8f94;
+  color: #1a8f94 !important;
   margin-top: 36px;
   margin-bottom: 12px;
   padding-bottom: 6px;
-  border-bottom: 1px solid #edfcfd;
+  border-bottom: 1px solid #c4f3f5;
 }
 
 .wiki-content :deep(h3) {
   font-size: 17px;
   font-weight: 600;
-  color: #2ba8ad;
+  color: #2ba8ad !important;
   margin-top: 24px;
   margin-bottom: 8px;
 }
@@ -196,10 +196,13 @@ useHead({
   margin-bottom: 16px;
 }
 
+.wiki-content :deep(h1 > a), .wiki-content :deep(h2 > a), .wiki-content :deep(h3 > a)  {
+  color:inherit !important;
+}
 .wiki-content :deep(a) {
   color: #3ddbe1;
   text-decoration: none;
-  border-bottom: 1px solid #c4f3f5;
+  /* border-bottom: 1px solid #c4f3f5; */
   transition: color 0.15s, border-color 0.15s;
 }
 
