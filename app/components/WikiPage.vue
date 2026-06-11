@@ -257,6 +257,68 @@ useHead({
   max-width: 100%;
   border-radius: 10px;
   margin: 8px 0;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.wiki-content :deep(img:hover) {
+  transform: scale(1.025);
+  box-shadow: 0 6px 20px rgba(61, 219, 225, 0.3);
+}
+
+.wiki-content :deep(.image-grid) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 16px 0;
+  background: #edfcfd;
+  padding: 14px;
+  border-radius: 16px;
+}
+
+.wiki-content :deep(.image-grid-item) {
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #edfcfd;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #c4f3f5 0px,
+    #c4f3f5 3px,
+    #edfcfd 3px,
+    #edfcfd 12px
+  );
+}
+
+.wiki-content :deep(.image-grid-item img) {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+  transition: transform 0.28s ease;
+  box-shadow: none;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+}
+
+.wiki-content :deep(.image-grid-item:hover img) {
+  transform: scale(1.07);
+  box-shadow: none;
+}
+
+.wiki-content :deep(.image-grid-dummy) {
+  border-radius: 10px;
+  min-height: 80px;
+  background-color: #edfcfd;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #c4f3f5 0px,
+    #c4f3f5 3px,
+    #edfcfd 3px,
+    #edfcfd 12px
+  );
 }
 
 .wiki-content :deep(table) {

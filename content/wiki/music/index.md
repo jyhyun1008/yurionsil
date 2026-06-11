@@ -7,7 +7,7 @@ description: "유리온실 오리지널 & 커버곡 목록"
 
 ## 오리지널 곡
 
-첫번째 오리지널 곡 준비중!
+- [Forbidden but Unveiled](./music/forbidden-but-unveiled/)
 
 ## 커버곡
 
