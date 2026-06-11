@@ -74,7 +74,7 @@
         </a>
       </div>
 
-      <div class="section-label">📚 프로젝트</div>
+      <div class="section-label">프로젝트</div>
       <div class="links-group">
         <NuxtLink class="lt-btn btn-bounce-in"
            to="/wiki"
