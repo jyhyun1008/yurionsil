@@ -263,6 +263,28 @@ useHead({
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 
+.wiki-content :deep(iframe) {
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  margin: 8px 0;
+}
+
+.wiki-content :deep(.video-embed) {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 16px 0;
+  line-height: 0;
+}
+
+.wiki-content :deep(.video-embed iframe) {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+}
+
 .wiki-content :deep(img:hover) {
   transform: scale(1.025);
   box-shadow: 0 6px 20px rgba(61, 219, 225, 0.3);
